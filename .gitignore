@@ -1,0 +1,16 @@
+# Xcode / Swift
+.DS_Store
+DerivedData/
+build/
+.build/
+.swiftpm/xcode/package.xcworkspace/xcuserdata/
+*.xcuserstate
+*.xcuserdatad/
+xcuserdata/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# App-specific local data / personal libraries
+*.xcworkspace/xcuserdata/
