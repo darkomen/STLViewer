@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 110;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		D3352D8B3083BD3600E55095 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3352D753083BD3500E55095 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3352D7C3083BD3500E55095;
+			remoteInfo = STLViewer;
+		};
+		D3352D953083BD3600E55095 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3352D753083BD3500E55095 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3352D7C3083BD3500E55095;
+			remoteInfo = STLViewer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D3352D7D3083BD3500E55095 /* STLViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STLViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3352D8A3083BD3600E55095 /* STLViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STLViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3352D943083BD3600E55095 /* STLViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STLViewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D3352D7F3083BD3500E55095 /* STLViewer */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = STLViewer;
+			sourceTree = "<group>";
+		};
+		D3352D8D3083BD3600E55095 /* STLViewerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = STLViewerTests;
+			sourceTree = "<group>";
+		};
+		D3352D973083BD3600E55095 /* STLViewerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = STLViewerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3352D7A3083BD3500E55095 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		D3352D873083BD3600E55095 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		D3352D913083BD3600E55095 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3352D743083BD3500E55095 = {
+			isa = PBXGroup;
+			children = (
+				D3352D7F3083BD3500E55095 /* STLViewer */,
+				D3352D8D3083BD3600E55095 /* STLViewerTests */,
+				D3352D973083BD3600E55095 /* STLViewerUITests */,
+				D3352D7E3083BD3500E55095 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3352D7E3083BD3500E55095 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3352D7D3083BD3500E55095 /* STLViewer.app */,
+				D3352D8A3083BD3600E55095 /* STLViewerTests.xctest */,
+				D3352D943083BD3600E55095 /* STLViewerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3352D7C3083BD3500E55095 /* STLViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3352D9C3083BD3600E55095 /* Build configuration list for PBXNativeTarget "STLViewer" */;
+			buildPhases = (
+				D3352D793083BD3500E55095 /* Sources */,
+				D3352D7A3083BD3500E55095 /* Frameworks */,
+				D3352D7B3083BD3500E55095 /* Resources */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				D3352D7F3083BD3500E55095 /* STLViewer */,
+			);
+			name = STLViewer;
+			productName = STLViewer;
+			productReference = D3352D7D3083BD3500E55095 /* STLViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3352D893083BD3600E55095 /* STLViewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3352D9F3083BD3600E55095 /* Build configuration list for PBXNativeTarget "STLViewerTests" */;
+			buildPhases = (
+				D3352D863083BD3600E55095 /* Sources */,
+				D3352D873083BD3600E55095 /* Frameworks */,
+				D3352D883083BD3600E55095 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3352D8C3083BD3600E55095 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D3352D8D3083BD3600E55095 /* STLViewerTests */,
+			);
+			name = STLViewerTests;
+			productName = STLViewerTests;
+			productReference = D3352D8A3083BD3600E55095 /* STLViewerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D3352D933083BD3600E55095 /* STLViewerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3352DA23083BD3600E55095 /* Build configuration list for PBXNativeTarget "STLViewerUITests" */;
+			buildPhases = (
+				D3352D903083BD3600E55095 /* Sources */,
+				D3352D913083BD3600E55095 /* Frameworks */,
+				D3352D923083BD3600E55095 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3352D963083BD3600E55095 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D3352D973083BD3600E55095 /* STLViewerUITests */,
+			);
+			name = STLViewerUITests;
+			productName = STLViewerUITests;
+			productReference = D3352D943083BD3600E55095 /* STLViewerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3352D753083BD3500E55095 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					D3352D7C3083BD3500E55095 = {
+						CreatedOnToolsVersion = 27.0;
+					};
+					D3352D893083BD3600E55095 = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = D3352D7C3083BD3500E55095;
+					};
+					D3352D933083BD3600E55095 = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = D3352D7C3083BD3500E55095;
+					};
+				};
+			};
+			buildConfigurationList = D3352D783083BD3500E55095 /* Build configuration list for PBXProject "STLViewer" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3352D743083BD3500E55095;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D3352D7E3083BD3500E55095 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3352D7C3083BD3500E55095 /* STLViewer */,
+				D3352D893083BD3600E55095 /* STLViewerTests */,
+				D3352D933083BD3600E55095 /* STLViewerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3352D7B3083BD3500E55095 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		D3352D883083BD3600E55095 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		D3352D923083BD3600E55095 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3352D793083BD3500E55095 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		D3352D863083BD3600E55095 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		D3352D903083BD3600E55095 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3352D8C3083BD3600E55095 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3352D7C3083BD3500E55095 /* STLViewer */;
+			targetProxy = D3352D8B3083BD3600E55095 /* PBXContainerItemProxy */;
+		};
+		D3352D963083BD3600E55095 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3352D7C3083BD3500E55095 /* STLViewer */;
+			targetProxy = D3352D953083BD3600E55095 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D3352D9A3083BD3600E55095 /* Debug configuration for PBXProject "STLViewer" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D3352D9B3083BD3600E55095 /* Release configuration for PBXProject "STLViewer" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		D3352D9D3083BD3600E55095 /* Debug configuration for PBXNativeTarget "STLViewer" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.darkomen.STLViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D3352D9E3083BD3600E55095 /* Release configuration for PBXNativeTarget "STLViewer" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.darkomen.STLViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D3352DA03083BD3600E55095 /* Debug configuration for PBXNativeTarget "STLViewerTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.darkomen.STLViewerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/STLViewer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/STLViewer";
+			};
+			name = Debug;
+		};
+		D3352DA13083BD3600E55095 /* Release configuration for PBXNativeTarget "STLViewerTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.darkomen.STLViewerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/STLViewer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/STLViewer";
+			};
+			name = Release;
+		};
+		D3352DA33083BD3600E55095 /* Debug configuration for PBXNativeTarget "STLViewerUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.darkomen.STLViewerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = STLViewer;
+			};
+			name = Debug;
+		};
+		D3352DA43083BD3600E55095 /* Release configuration for PBXNativeTarget "STLViewerUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.darkomen.STLViewerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = STLViewer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3352D783083BD3500E55095 /* Build configuration list for PBXProject "STLViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3352D9A3083BD3600E55095 /* Debug configuration for PBXProject "STLViewer" */,
+				D3352D9B3083BD3600E55095 /* Release configuration for PBXProject "STLViewer" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		D3352D9C3083BD3600E55095 /* Build configuration list for PBXNativeTarget "STLViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3352D9D3083BD3600E55095 /* Debug configuration for PBXNativeTarget "STLViewer" */,
+				D3352D9E3083BD3600E55095 /* Release configuration for PBXNativeTarget "STLViewer" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		D3352D9F3083BD3600E55095 /* Build configuration list for PBXNativeTarget "STLViewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3352DA03083BD3600E55095 /* Debug configuration for PBXNativeTarget "STLViewerTests" */,
+				D3352DA13083BD3600E55095 /* Release configuration for PBXNativeTarget "STLViewerTests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		D3352DA23083BD3600E55095 /* Build configuration list for PBXNativeTarget "STLViewerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3352DA33083BD3600E55095 /* Debug configuration for PBXNativeTarget "STLViewerUITests" */,
+				D3352DA43083BD3600E55095 /* Release configuration for PBXNativeTarget "STLViewerUITests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3352D753083BD3500E55095 /* Project object */;
+	validationLevel = 1;
+}
